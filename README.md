@@ -55,9 +55,15 @@ To overcome cutting the DNA with Cas9, researchers have developed a CRISPR-based
 ## Examples of outputs
 <img src="images/results_Alg7.png" width="70%" style="float:right"/> 
 As a result of running this program, you will get an Excel file with a list of:
+
 * gRNA sequences
+
 * corresponding PAM sequences
+
 * relative start position of gRNA match in the edited gene 
+
 * DNA strand information - positive (with PAM sequence) or negative (opposite) strand
+
 * mutated DNA region, with C->T mutation highlighed in red
+
 * amino acid changes in the resulting protein (results shown for each possible nucleotide edit individually and edits combined)
