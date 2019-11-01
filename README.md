@@ -36,7 +36,7 @@ Get a fasta file with the gene that you want to mutate with CRISPR Cytidine deam
 After that either:
 
 - double-click on gRNA_designer.command
-
+OR
 - run 
 ```bash
 python gRNA_designer.py
