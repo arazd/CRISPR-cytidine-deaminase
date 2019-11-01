@@ -2,6 +2,22 @@
 
 This repository contains open-source tools for gRNA design for CRISPR cytidine deaminase.
 
+## Examples of outputs
+<img src="images/results_Alg7.png" width="70%" style="float:right"/> 
+As a result of running this program, you will get an Excel file with a list of:
+
+* gRNA sequences
+
+* corresponding PAM sequences
+
+* relative start position of gRNA match in the edited gene 
+
+* DNA strand information - <i>positive</i> (with PAM sequence) or <i>negative</i> (opposite) strand
+
+* mutated DNA region, with C->T mutation highlighed in red
+
+* amino acid changes in the resulting protein (results shown for each possible nucleotide edit individually and edits combined)
+
 ## How to run
 ### From terminal
 Get a fasta file with the gene that you want to mutate with CRISPR Cytidine deaminase. Put your fasta file in the same folder together with bash_design.py and design_library.py.
@@ -52,18 +68,6 @@ The principle behing genome editing with CRISPR is "find and edit". Cas9 protein
 
 To overcome cutting the DNA with Cas9, researchers have developed a CRISPR-based system that allows to change a nucleotide in DNA that will result in subsequent mutation in the expressed protein. Cytidine base editors are engineered by fusing catalytically inactive "dead" Cas9 to a cytidine deaminase. CRISPR Cytidine deaminase system is targeted to a specific locus on DNA by its gRNA, where Cytidine deaminase performs a C -> T change on one DNA strand (G to A on the opposite strand). C to T conversion is bounded by a small editing window near PAM site on a locus determined by gRNA.
 
-## Examples of outputs
-<img src="images/results_Alg7.png" width="70%" style="float:right"/> 
-As a result of running this program, you will get an Excel file with a list of:
+# Gene examples and outputs
+Go to folder <i>gene examples</i> to download fasta files with gene sequences and see Excel outup examples.
 
-* gRNA sequences
-
-* corresponding PAM sequences
-
-* relative start position of gRNA match in the edited gene 
-
-* DNA strand information - positive (with PAM sequence) or negative (opposite) strand
-
-* mutated DNA region, with C->T mutation highlighed in red
-
-* amino acid changes in the resulting protein (results shown for each possible nucleotide edit individually and edits combined)
