@@ -17,11 +17,6 @@ where
 * 20 - target sequence length
 * 12 - CRISPR cytidine deaminae mutation window
 
-### As a program with GUI
-<img src="images/grna_designer.png" width="60%" style="float:right"/> 
-Get a fasta file with the gene that you want to mutate with CRISPR Cytidine deaminase. Download the repository; put your fasta file in the same folder with gRNA_designer.py, gRNA_designer.command and design_library.py. After that either:
-* double-click on gRNA_designer.command
-* run 
 
 
 An application with GUI should appear.
