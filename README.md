@@ -47,3 +47,11 @@ The principle behing genome editing with CRISPR is "find and edit". Cas9 protein
 To overcome cutting the DNA with Cas9, researchers have developed a CRISPR-based system that allows to change a nucleotide in DNA that will result in subsequent mutation in the expressed protein. Cytidine base editors are engineered by fusing catalytically inactive "dead" Cas9 to a cytidine deaminase. CRISPR Cytidine deaminase system is targeted to a specific locus on DNA by its gRNA, where Cytidine deaminase performs a C -> T change on one DNA strand (G to A on the opposite strand). C to T conversion is bounded by a small editing window near PAM site on a locus determined by gRNA.
 
 ## Examples of outputs
+<img src="images/result_Alg7.png" width="70%" style="float:right"/> 
+As a result of running this program, you will get an Excel file with a list of:
+* gRNA sequences
+* corresponding PAM sequences
+* relative start position of gRNA match in the edited gene 
+* DNA strand information - positive (with PAM sequence) or negative (opposite) strand
+* mutated DNA region, with C->T mutation highlighed in red
+* amino acid changes in the resulting protein (results shown for each possible nucleotide edit individually and edits combined)
