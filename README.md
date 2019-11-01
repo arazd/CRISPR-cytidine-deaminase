@@ -11,7 +11,7 @@ CRISPR stands for <i>clustered regularly interspaced short palindromic repeats</
 ## CRISPR as genome editing tool
 In 2013 the first CRISPR system was engineered to perform genome editing in mouse and human cells [2]. After that, the system became widely used in biomedical laboratories across the world as a genome editing tool.
 
-The principle behing genome editing with CRISPR is "find and edit". Cas9 protein is matched with a specifically engineered **guide RNA** (or gRNA) that allows the system to find a DNA sequence that we want to edit. After complementary DNA is found, Cas9 protein cuts it. Instead of using Cas9, we can use different DNA-editing proteins (like Cytidine deaminase).
+The principle behing genome editing with CRISPR is "find and edit". Cas9 protein is matched with a specifically engineered **guide RNA** (or gRNA) that allows the system to find a DNA sequence that we want to edit. After complementary DNA is found, Cas9 protein cuts it. Instead of using Cas9, we can also use other DNA-editing proteins (like Cytidine deaminase).
 
 ### Cytidine deaminase
 
