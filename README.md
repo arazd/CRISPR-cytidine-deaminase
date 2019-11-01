@@ -2,6 +2,23 @@
 
 This repository contains open-source tools for gRNA design for CRISPR cytidine deaminase.
 
+## How to run
+### From terminal
+Put your fasta file in the same folder together with bash_design.py and design_library.py.
+
+Run in terminal:
+
+```bash
+python bash_design.py ALG7_genomic.fsa NGG 20 12
+```
+where 
+* ALG7_genomic.fsa - fasta filename
+* NGG - PAM sequence
+* 20 - target sequence length
+* 12 - CRISPR cytidine deaminae mutation window
+
+### As a program with GUI
+
 ## Biology overview
 ### CRISPR-Cas9
 CRISPR-Cas9 is a molecular system that can target specific DNA sequences and make cuts, allowing to perform genome editing by "turning off" some genes. 
@@ -21,7 +38,5 @@ The principle behing genome editing with CRISPR is "find and edit". Cas9 protein
 <img src="images/crispr2.png" width="70%" style="float:right"/> 
 
 To overcome cutting the DNA with Cas9, researchers have developed a CRISPR-based system that allows to change a nucleotide in DNA that will result in subsequent mutation in the expressed protein. Cytidine base editors are engineered by fusing catalytically inactive "dead" Cas9 to a cytidine deaminase. CRISPR Cytidine deaminase system is targeted to a specific locus on DNA by its gRNA, where Cytidine deaminase performs a C -> T change on one DNA strand (G to A on the opposite strand). C to T conversion is bounded by a small editing window near PAM site on a locus determined by gRNA.
-
-## How to use
 
 ## Examples of outputs
