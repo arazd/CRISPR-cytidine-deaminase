@@ -4,7 +4,7 @@ This repository contains open-source tools for gRNA design for CRISPR cytidine d
 
 ## How to run
 ### From terminal
-Put your fasta file in the same folder together with bash_design.py and design_library.py.
+Get a fasta file with the gene that you want to mutate with CRISPR Cytidine deaminase. Put your fasta file in the same folder together with bash_design.py and design_library.py.
 
 Run in terminal:
 
@@ -18,6 +18,13 @@ where
 * 12 - CRISPR cytidine deaminae mutation window
 
 ### As a program with GUI
+<img src="images/grna_designer.png" width="60%" style="float:right"/> 
+Get a fasta file with the gene that you want to mutate with CRISPR Cytidine deaminase. Download the repository; put your fasta file in the same folder with gRNA_designer.py, gRNA_designer.command and design_library.py. After that either:
+* double-click on gRNA_designer.command
+* run ```bash
+python gRNA_designer.py
+```
+An application with GUI should appear.
 
 ## Biology overview
 ### CRISPR-Cas9
