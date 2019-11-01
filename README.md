@@ -10,7 +10,7 @@ You will only need a fasta file with your gene of interest that you want to desi
 * relative start position of gRNA match in the edited gene 
 * DNA strand information - <i>positive</i> (with PAM sequence) or <i>negative</i> (opposite) strand
 * mutated DNA region, with C->T mutation highlighed in red
-* amino acid changes in the resulting protein (results shown for each possible nucleotide edit individually and edits combined)
+* amino acid changes in the resulting protein (results shown for each possible nucleotide edit individually and all edits combined)
 
 <img src="images/results_Alg7_3.png" width="90%" style="float:right"/> 
 
