@@ -22,9 +22,8 @@ where
 Get a fasta file with the gene that you want to mutate with CRISPR Cytidine deaminase. Download the repository; put your fasta file in the same folder with gRNA_designer.py, gRNA_designer.command and design_library.py. After that either:
 * double-click on gRNA_designer.command
 * run 
-```bash
-python gRNA_designer.py
-```
+
+
 An application with GUI should appear.
 
 ## Biology overview
