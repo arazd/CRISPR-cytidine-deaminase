@@ -3,20 +3,16 @@
 This repository contains open-source tools for gRNA design for CRISPR cytidine deaminase.
 
 ## Examples of outputs
-<img src="images/results_Alg7.png" width="70%" style="float:right"/> 
-As a result of running this program, you will get an Excel file with a list of:
+You will only need a fasta file with your gene of interest that you want to design gRNA to perform subsequent mutations with CRISPR cytidine deaminase. As a result of running this program, you will get an Excel file with a list of:
 
 * gRNA sequences
-
 * corresponding PAM sequences
-
 * relative start position of gRNA match in the edited gene 
-
 * DNA strand information - <i>positive</i> (with PAM sequence) or <i>negative</i> (opposite) strand
-
 * mutated DNA region, with C->T mutation highlighed in red
-
 * amino acid changes in the resulting protein (results shown for each possible nucleotide edit individually and edits combined)
+
+<img src="images/results_Alg7.png" width="70%" style="float:right"/> 
 
 ## How to run
 ### From terminal
