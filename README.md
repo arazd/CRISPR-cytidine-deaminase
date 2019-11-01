@@ -21,7 +21,8 @@ where
 <img src="images/grna_designer.png" width="60%" style="float:right"/> 
 Get a fasta file with the gene that you want to mutate with CRISPR Cytidine deaminase. Download the repository; put your fasta file in the same folder with gRNA_designer.py, gRNA_designer.command and design_library.py. After that either:
 * double-click on gRNA_designer.command
-* run ```bash
+* run 
+```bash
 python gRNA_designer.py
 ```
 An application with GUI should appear.
@@ -47,7 +48,7 @@ The principle behing genome editing with CRISPR is "find and edit". Cas9 protein
 To overcome cutting the DNA with Cas9, researchers have developed a CRISPR-based system that allows to change a nucleotide in DNA that will result in subsequent mutation in the expressed protein. Cytidine base editors are engineered by fusing catalytically inactive "dead" Cas9 to a cytidine deaminase. CRISPR Cytidine deaminase system is targeted to a specific locus on DNA by its gRNA, where Cytidine deaminase performs a C -> T change on one DNA strand (G to A on the opposite strand). C to T conversion is bounded by a small editing window near PAM site on a locus determined by gRNA.
 
 ## Examples of outputs
-<img src="images/result_Alg7.png" width="70%" style="float:right"/> 
+<img src="images/results_Alg7.png" width="70%" style="float:right"/> 
 As a result of running this program, you will get an Excel file with a list of:
 * gRNA sequences
 * corresponding PAM sequences
