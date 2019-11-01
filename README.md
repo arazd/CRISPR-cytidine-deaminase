@@ -4,7 +4,7 @@ This repository contains open-source tools for gRNA design for CRISPR cytidine d
 
 ## Biology overview
 ### CRISPR-Cas9
-CRISPR-Cas9 is a molecular system that can target specific DNA sequences and perform cuts, allowing to perform genome editing by "turning off" some genes. 
+CRISPR-Cas9 is a molecular system that can target specific DNA sequences and make cuts, allowing to perform genome editing by "turning off" some genes. 
 
 CRISPR stands for <i>clustered regularly interspaced short palindromic repeats</i> - short DNA sequences originally found in bacteria, which serve as bacterial immune system and participate in anti-viral defence [1]. In bacterial cell these sequences are transcribed into short RNA sequences that guide the CRISPR-Cas9 system to matching sequences of DNA of the invading virus. Once target DNA is found, protein Cas9 performs a cut and blocks a target gene. This mechanism of defence allows bacteria to protect against viruses by turning off their important genes and, hence, killing the virus.
 
