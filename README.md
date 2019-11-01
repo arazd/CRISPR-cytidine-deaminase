@@ -12,7 +12,7 @@ You will only need a fasta file with your gene of interest that you want to desi
 * mutated DNA region, with C->T mutation highlighed in red
 * amino acid changes in the resulting protein (results shown for each possible nucleotide edit individually and edits combined)
 
-<img src="images/results_Alg7_2.png" width="70%" style="float:right"/> 
+<img src="images/results_Alg7_3.png" width="70%" style="float:right"/> 
 
 ## How to run
 ### From terminal
