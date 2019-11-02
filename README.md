@@ -27,7 +27,7 @@ where
 * ALG7_genomic.fsa - fasta filename
 * NGG - PAM sequence
 * 20 - target sequence length
-* 12 - CRISPR cytidine deaminae mutation window
+* 12 - CRISPR cytidine deaminase mutation window
 
 ### As a program with GUI
 <img src="images/grna_designer.png" width="60%" style="float:right"/> 
