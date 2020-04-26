@@ -2,6 +2,7 @@ import re
 import xlsxwriter
 import os
 
+# dictionary of equivalent amino acid notations
 amino_acid_dict={"UUU":"Phe", "UUC":"Phe", "UUA":"Leu", "UUG":"Leu",
        "UCU":"Ser", "UCC":"Ser", "UCA":"Ser", "UCG":"Ser",
        "UAU":"Tyr", "UAC":"Tyr", "UAA":"STOP", "UAG":"STOP",
