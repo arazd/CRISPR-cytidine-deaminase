@@ -1,8 +1,5 @@
-#from kivy.app import App
-#import kivy
 import tkinter
 from tkinter import filedialog
-#from tkinter import ttk
 from functools import partial
 import os
 from design_library import *
@@ -32,32 +29,12 @@ def run(label_result, fname, PAM, region, mut_window):
 
 
 root = tkinter.Tk()
-#style = ttk.Style()
-#style.theme_use('classic')
 
 im = Image.open('Test3.jpg')
 tkimage = ImageTk.PhotoImage(im)
 myvar=tkinter.Label(root,image = tkimage)
 myvar.place(x=0, y=0, relwidth=1, relheight=1)
 
-'''pim = Image.new('RGBA', (5,100), (255,255,255,0))
-photo = ImageTk.PhotoImage(pim)
-
-mycanvas = tkinter.Canvas(root, width = 200, height = 110)
-mycanvas.create_image((0,0), image=photo)
-#mycanvas.create_rectangle(0, 0, 100, 40, fill = "green")
-#mycanvas.pack(side = "top", fill = "both", expand = True)
-
-text_canvas = mycanvas.create_text(10, 10, anchor = "nw")
-mycanvas.itemconfig(text_canvas, text="Look no background! Thats new!")
-mycanvas.grid(row=0, column=1)
-
-c = tkinter.Canvas(root)
-c.grid(row=1, column=1)
-c.create_image(0, 0, image=photo)
-c.create_text(0, 0, text="My Text")'''
-
-#bg_col='#82CAFF'
 bg_col='#014F9C'
 fg_col="white"
 root.configure(background=bg_col)
@@ -69,7 +46,6 @@ root.title('CRISPR gRNA designer')
 
 labelTitle2 = tkinter.Label(root, bg=bg_col, fg=fg_col, font='Kokonor 18 bold', text="CRISPR Cytidine Deaminase").grid(row=0, column=1, padx=5, pady=5)
 
-#labelTitle = tkinter.Label(root, bg=bg_col, font='Harrington 16 ', text="Design gRNA for CRISPR deaminase").grid(row=0, column=2)
 label1 = tkinter.Label(root, bg=bg_col, fg=fg_col, text="FASTA file with gene: ").grid(row=1, column=0, sticky='E')
 label2 = tkinter.Label(root, bg=bg_col, fg=fg_col, text="PAM-sequence: ").grid(row=2, column=0, sticky='E')
 label3 = tkinter.Label(root, bg=bg_col, fg=fg_col, text="Target sequence length: ").grid(row=3, column=0, sticky='E')
@@ -104,9 +80,6 @@ window_entry.grid(row=4, column=1, padx=5, pady=5)
 
 call_result = partial(run, labelResult, fname_str, PAM_str, region_str, window_str)
 buttonCal = tkinter.Button(root, bd=0, activeforeground='red', text=" Design gRNAs ", command=call_result)
-#buttonCal.configure(fg='yellow', bg='black', state = "normal", relief="raised")
-# another way to pass command with arguments (using lambda):
-#buttonCal = tkinter.Button(root, bd=0, activeforeground='red', text=" Design gRNAs ",command=lambda:call_result(labelResult, fname_str, PAM_str, region_str, window_str))
 buttonCal.grid(row=7, column=1)
 
 root.mainloop()
