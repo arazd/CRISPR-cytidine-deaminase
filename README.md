@@ -55,7 +55,6 @@ CRISPR stands for <i>clustered regularly interspaced short palindromic repeats</
 <img src="images/crispr0.png" width="30%" style="float:right"/> 
 (images borrowed from Addgene)
 
-
 ## CRISPR as genome editing tool
 In 2013 the first CRISPR system was engineered to perform genome editing in mouse and human cells [2]. After that, the system became widely used in biomedical laboratories across the world as a genome editing tool.
 
