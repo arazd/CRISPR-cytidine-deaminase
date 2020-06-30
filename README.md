@@ -67,4 +67,3 @@ To overcome cutting the DNA with Cas9, researchers have developed a CRISPR-based
 
 # Gene examples and outputs
 Go to folder <i>gene examples</i> to download fasta files with gene sequences and see Excel output examples.
-
